@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+.container {
+    color: beige;
+    background-color: #549454;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: rgba(100, 65, 65, 0.719);
+    transition: 1s ease;
+}
+
+.logo {
+    cursor: pointer;
+}
+  
+  .section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #549454;
+    margin-bottom: 1rem;
+  }
+  
+  .section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  /* Tips List */
+  .tips-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .tips-list li {
+    background: rgb(230, 217, 217);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tip Cards */
+  .tip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: gainsboro;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #549454;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .card img{
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Exercise List */
+  .exercise-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .exercise-list li {
+    background: rgb(230, 219, 219);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #363635;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  .contain{
+    color: beige;
+    background-color: #555;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+footer nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer nav a{
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+footer nav a:hover{
+    color:#549454;
+    transition: 1s ease;
+}
+.logo{
+ cursor: pointer;
+ display:block;
+ text-align: left;
+ 
+}
+.logo p{
+    display: flex;
+    margin: 10px;
+    
+}
+.logo p a {
+    color: white;
+}
+.logo p a:hover{
+  color: #549454;
+}
+
+  

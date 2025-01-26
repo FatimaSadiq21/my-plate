@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+.container {
+    color: beige;
+    background-color: #549454;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: rgba(100, 65, 65, 0.719);
+    transition: 1s ease;
+}
+
+.logo {
+    cursor: pointer;
+}   
+.contact-container {
+    background:url(./images/bare-light-green-plain-ccgwylr7jtzskkh4.jpg);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .contact-info, .social-media, .mailing-address, .contact-form {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info a, .social-media a {
+    color:#549454;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover, .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #549454;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color:gray;
+    transition: 1s ease-in;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .social-media {
+    font-size: 1rem;
+  }
+  footer {
+    text-align: center;
+    background: #363635;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+  .contain{
+    color: beige;
+    background-color: #555;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+footer nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer nav a{
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+footer nav a:hover{
+    color:#549454;
+    transition: 1s ease;
+}
+.logo{
+ cursor: pointer;
+ display:block;
+ text-align: left;
+ 
+}
+.logo p{
+    display: flex;
+    margin: 10px;
+    
+}
+.logo p a {
+    color: white;
+}
+.logo p a:hover{
+  color: #549454;
+}
+
+  

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+.container{
+    color:beige;
+    background-color:#549454 ;
+    padding: 10px 20px ; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav a{
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+header nav a:hover{
+    color:rgba(100, 65, 65, 0.719);
+    transition: 1s ease;
+}
+.logo{
+ cursor: pointer;
+}
+section{
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: gainsboro;
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.main div h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.main div h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.main div p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.main div button{
+    padding: 0.8rem 1.5rem;
+  background: #549454;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.main div button:hover{
+    background-color:rgba (100, 65, 65, 0.719) ;
+    transition: 1s ease;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+ .box1{   
+  background: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+.features img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+.feature h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #6AC47E;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #555;
+  }
+
+footer {
+    text-align: center;
+    background: #363635;
+    color: white;
+    padding: 1rem 0
+}
+.contain{
+    color: beige;
+    background-color: #555;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+footer nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer nav a{
+    margin-right: 25px;
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+}
+footer nav a:hover{
+    color:#549454;
+    transition: 1s ease;
+}
+.logo{
+ cursor: pointer;
+ display:block;
+ text-align: left;
+ 
+}
+.logo p{
+    display: flex;
+    margin: 10px;
+    
+}
+.logo p a {
+    color: white;
+}
+.logo p a:hover{
+    color: #549454;
+}
