@@ -191,6 +191,11 @@ footer nav a:hover{
 .logo p a:hover{
   color: #549454;
 }
+@media(max-width:1400px){
+  header{
+    background-image:radial-gradient(#549454 ) ;
+  }
+}
 
 
   
