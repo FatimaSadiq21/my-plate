@@ -19,6 +19,7 @@
 header nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -155,6 +156,7 @@ header nav a:hover {
 footer nav ul{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 footer nav ul li{
     display: flex;
